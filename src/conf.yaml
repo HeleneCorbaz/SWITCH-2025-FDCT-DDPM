@@ -1,0 +1,17 @@
+model_name : 'NAME OF THE FILE WHERE THE MODEL WILL BE SAVED'
+path_fdct : 'PATH TO INPUT'
+path_mdct: 'PATH TO TARGET'
+epochs: 1000
+res: 512
+batch_size: 12
+exp_name : 'NAME FOR TENSORBOARD'
+window_level: 50 #WINDOW AND LEVEL FOR PREPROCESSING IN DATALOADER
+window_width: 100
+inference:
+  model_name : 'NAME OF THE MODEL'
+  path_fdct: 'PATH TO INPUT'
+  path_mdct: 'PATH TO TARGET'
+  res: 512
+  batch_size: 64
+  path_res: 'WHERE TO SAVE THE PREDICTED IMAGES'
+
